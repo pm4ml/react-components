@@ -1,6 +1,6 @@
 {
-  "name": "@modusbox/react-components",
-  "version": "0.1.9",
+  "name": "@pm4ml/react-components",
+  "version": "0.1.10",
   "main": "lib/index.js",
   "author": "Ivan Annovazzi <ivan@modusbox.com>",
   "module": "lib/index.esm.js",
