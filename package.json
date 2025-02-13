@@ -4,7 +4,7 @@
   "main": "lib/index.js",
   "author": "Ivan Annovazzi <ivan@modusbox.com>",
   "module": "lib/index.esm.js",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "types": "lib/index.d.ts",
   "files": [
     "lib"
@@ -13,7 +13,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@modusbox/ts-utils": "^0.0.4",
+    "@pm4ml/ts-utils": "^0.0.6",
     "babel-plugin-react-docgen": "^4.2.1",
     "bootstrap-icons": "^1.5.0",
     "date-fns": "^2.21.3",

@@ -1,6 +1,6 @@
 import React from "react";
 import Tooltip from "components/Tooltip";
-import { ValidationResult } from "@modusbox/ts-utils/lib/validation";
+import { ValidationResult } from "@pm4ml/ts-utils/lib/validation";
 import ValidationCard from "./ValidationCard";
 
 interface BaseProps {

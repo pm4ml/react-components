@@ -1747,13 +1747,6 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/util/-/util-1.6.22.tgz#219dfd89ae5b97a8801f015323ffa4b62f45718b"
   integrity sha512-H1rQc1ZOHANWBvPcW+JpGwr+juXSxM8Q8YCkm3GhZd8REu1fHR3z99CErO1p9pkcfcxZnMdIZdIsXkOHY0NilA==
 
-"@modusbox/ts-utils@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@modusbox/ts-utils/-/ts-utils-0.0.4.tgz#3f60f61066576cc07dff35adfc5a754d9cdc63f6"
-  integrity sha512-bC6MZ1Do0w0bJyy1A/g9/beJplunWbuGvtthd2Y69JlI0xM4ObihA6/VcVzdJfV/f0rsLz5lh7BXJS/FXojGUg==
-  dependencies:
-    lodash "^4.17.21"
-
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -1795,6 +1788,13 @@
   dependencies:
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
+
+"@pm4ml/ts-utils@^0.0.6":
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/@pm4ml/ts-utils/-/ts-utils-0.0.6.tgz#3727b2d6ccc5f665aa5b2a62e6f78bbef014de59"
+  integrity sha512-LmvaiY5xnmPzh/qTPFpSvINaSKBUBOa2smI0WJ8Z3ig9Z2gldPLO0SKaj6jAFjs5PM1sdk+AwZ6lOnq5gzv7HA==
+  dependencies:
+    lodash "^4.17.21"
 
 "@pmmmwh/react-refresh-webpack-plugin@^0.4.3":
   version "0.4.3"
@@ -7089,8 +7089,6 @@ getpass@^0.1.1:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/getpass/-/getpass-0.1.7.tgz#5eff8e3e684d569ae4cb2b1282604e8ba62149fa"
   integrity sha1-Xv+OPmhNVprkyysSgmBOi6YhSfo=
-  dependencies:
-    assert-plus "^1.0.0"
 
 github-slugger@^1.0.0:
   version "1.3.0"

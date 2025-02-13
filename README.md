@@ -6,7 +6,7 @@ A collection of React components for the frontend apps.
 
 To install the module run `yarn add @pm4ml/react-components`.
 
-Documentation is available at [https://modusintegration.github.io/react-components](https://modusintegration.github.io/react-components)
+Documentation is available at [https://github.com/pm4ml/react-components](https://github.com/pm4ml/react-components)
 
 ### Development
 
