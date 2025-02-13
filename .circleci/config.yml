@@ -1,0 +1,31 @@
+version: 2.1
+
+executors:
+  node-docker-executor:
+    docker:
+      - image: cimg/node:18.20.4-browsers
+    working_directory: ~/project
+
+jobs:
+  # Job to publish to npm
+  npm-publish:
+    executor: node-docker-executor
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: yarn install --production  # Only install production dependencies
+      - run:
+          name: Set Up npm Credentials
+          command: |
+            echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
+      - run:
+          name: Publish to npm
+          command: |
+            npm publish
+
+workflows:
+  version: 2
+  publish:
+    jobs:
+      - npm-publish
