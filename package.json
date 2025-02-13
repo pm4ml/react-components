@@ -9,6 +9,9 @@
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@modusbox/ts-utils": "^0.0.4",
     "babel-plugin-react-docgen": "^4.2.1",

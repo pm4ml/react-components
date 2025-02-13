@@ -1,10 +1,10 @@
-# @modusbox/react-components
+# @pm4ml/react-components
 
 A collection of Typescript utilities for the frontend apps.
 
 ### Installation
 
-To install the module simply run `yarn add @modusbox/react-components`.
+To install the module simply run `yarn add @pm4ml/react-components`.
 
 
 ### Importing the styles
@@ -16,7 +16,7 @@ The library allows to import the single bundled CSS file or to extend the SCSS s
 #### CSS
 All you need to do is to import the styles by including the `index.css`:
 ```ts
-import '@modusbox/react-components/lib/index.css';
+import '@pm4ml/react-components/lib/index.css';
 ```
 
 #### SCSS
@@ -30,7 +30,7 @@ You need to create your own SCSS file and import the `index.scss` from there:
 colors.$primary: #f00;
 
 // import the scss
-@import 'node_modules/@modusbox/react-components/lib/index.scss';
+@import 'node_modules/@pm4ml/react-components/lib/index.scss';
 
 ```
 
