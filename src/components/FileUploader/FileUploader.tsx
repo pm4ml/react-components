@@ -1,7 +1,7 @@
 import React from "react";
 import classnames from "classnames";
-import readFileAsText from "@modusbox/ts-utils/lib/file/readFileAsText";
-import readFileAsBase64 from "@modusbox/ts-utils/lib/file/readFileAsBase64";
+import readFileAsText from "@pm4ml/ts-utils/lib/file/readFileAsText";
+import readFileAsBase64 from "@pm4ml/ts-utils/lib/file/readFileAsBase64";
 import Field, { Loader, Placeholder, InvalidIcon } from "components/Field";
 import FolderPlusIcon from "bootstrap-icons/icons/folder-plus.svg";
 import TrashIcon from "bootstrap-icons/icons/trash.svg";

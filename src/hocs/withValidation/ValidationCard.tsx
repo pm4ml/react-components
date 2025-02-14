@@ -1,7 +1,7 @@
 import classnames from "classnames";
 import Row from "components/Flexbox/Row";
 import Icon from "components/Icon";
-import { ValidationMessage } from "@modusbox/ts-utils/lib/validation";
+import { ValidationMessage } from "@pm4ml/ts-utils/lib/validation";
 import Check from "bootstrap-icons/icons/check.svg";
 import X from "bootstrap-icons/icons/x.svg";
 import "./ValidationCard.scss";

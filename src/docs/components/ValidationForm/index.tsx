@@ -5,7 +5,7 @@ import {
   createValidation,
   vd,
   toValidationResult,
-} from "@modusbox/ts-utils/lib/validation";
+} from "@pm4ml/ts-utils/lib/validation";
 
 const formValidation = {
   name: createValidation([vd.maxLength(10)]),
